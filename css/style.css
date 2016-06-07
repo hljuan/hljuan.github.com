@@ -151,3 +151,34 @@ body {
 .text h1 {
   font-size: 1.4em;
 }
+
+.content {
+  text-align: center;
+  font-family: Microsoft YaHei;
+  margin: 37px 10px;
+}
+
+.content p {
+  color: #8b6a60;
+  margin: 8px 0px;
+  font-weight: 300;
+}
+
+.nav {
+  position: fixed;
+  bottom: 10px;
+  display: flex;
+  width: 100%;
+}
+
+.nav a{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  background: rgba(0,0,0,0.2);
+  font-family: cursive;
+  flex-grow: 1;
+  margin: 0px 15px;
+}
