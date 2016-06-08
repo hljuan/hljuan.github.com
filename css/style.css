@@ -174,13 +174,12 @@ body {
 }
 
 .nav a{
-    display: flex;
     text-decoration: none;
     text-align: center;
     color: #fff;
     padding: 10px;
     background: rgba(0,0,0,0.2);
     font-family: Microsoft YaHei;
-    margin: 0px 15px;
+    margin: 5px 15px;
     flex-grow: 1;
 }
