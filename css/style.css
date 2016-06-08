@@ -13,6 +13,7 @@ body {
   display: block;
   position: relative;
   margin: -10em auto 0 auto;
+  transform: all ;
 }
 
 /* ============================================== Candle
@@ -165,20 +166,18 @@ body {
 }
 
 .nav {
-  position: fixed;
-  bottom: 10px;
   display: flex;
   width: 100%;
 }
 
 .nav a{
-  display: block;
-  text-decoration: none;
-  text-align: center;
-  color: #fff;
-  padding: 10px;
-  background: rgba(0,0,0,0.2);
-  font-family: cursive;
-  flex-grow: 1;
-  margin: 0px 15px;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    background: rgba(0,0,0,0.2);
+    font-family: 'Lato', sans-serif;
+    margin: 0px 15px;
+    flex-grow: 1;
 }
