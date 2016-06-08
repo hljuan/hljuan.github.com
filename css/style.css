@@ -167,19 +167,21 @@ body {
 }
 
 .nav {
-  position:fixed;
-  bottom:10px;
-  display: flex;
+  position: fixed;
+  bottom: 10px;
   width: 100%;
+  text-align: center;
+  overflow: hidden;
 }
 
 .nav a{
+    float: left;
     text-decoration: none;
     text-align: center;
     color: #fff;
-    padding: 10px;
+    padding: 10px 2%;
+    margin: 0 1%;
     background: rgba(0,0,0,0.2);
     font-family: Microsoft YaHei;
-    margin: 5px 15px;
-    flex-grow: 1;
+    width: 27.3%;
 }
