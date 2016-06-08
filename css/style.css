@@ -10,9 +10,8 @@ body {
 }
 
 #cake {
-  display: block;
-  position: relative;
-  margin: -15em auto 0 auto;
+    display: block;
+    margin: -18em auto 0 auto;
 }
 
 /* ============================================== Candle
@@ -21,7 +20,7 @@ body {
   background: #ffffff;
   border-radius: 10px;
   position: relative;
-  top: 169px;
+  top: 123px;
   left: 50%;
   margin-left: -2.5px;
   margin-top: -8.33333333px;
