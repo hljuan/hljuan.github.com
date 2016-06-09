@@ -2,28 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cba22e7-b4e9-4585-a138-5420107f8606" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cute/IMG_0425.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cute/IMG_0438.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cute/IMG_0443.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cute/IMG_0446.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cute/IMG_0452.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cute/IMG_0456.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hzf.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/cute/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/cute/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/cute.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/godness.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/cute/prefixfree.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-debug-1.12.4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/sea-debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vue-router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/cute/style.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/index.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="html5-css3-new-cake.iws" />
@@ -45,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
+            <state relative-caret-position="343">
               <caret line="205" column="38" selection-start-line="205" selection-start-column="38" selection-end-line="205" selection-end-column="38" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -60,7 +38,7 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="-741">
               <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#template#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -69,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
@@ -134,10 +112,10 @@
         <option value="$PROJECT_DIR$/scss/cute/style.scss" />
         <option value="$USER_HOME$/Downloads/html5-3d-cube-image/html5-3d-cube-image/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/cute/style.css" />
         <option value="$PROJECT_DIR$/html/main.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -467,15 +445,15 @@
       <workItem from="1465393768630" duration="11683000" />
       <workItem from="1465442593504" duration="7282000" />
       <workItem from="1465455681346" duration="1329000" />
-      <workItem from="1465457053112" duration="24351000" />
+      <workItem from="1465457053112" duration="24871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54778000" />
+    <option name="totallyTimeSpent" value="55298000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -811,16 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="205" column="38" selection-start-line="205" selection-start-column="38" selection-end-line="205" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/cute/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
@@ -829,9 +797,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="-741">
           <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding>
             <element signature="n#style#0;n#div#0;n#template#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -839,11 +815,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-          <folding />
+        <state relative-caret-position="343">
+          <caret line="205" column="38" selection-start-line="205" selection-start-column="38" selection-end-line="205" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
