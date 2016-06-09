@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>呵呵</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        body {
+            margin: 0;
+            font-family: Microsoft YaHei;
+            background-color: #A8B3DB;
+        }
+        .banner {
+            position: fixed;
+            top: 0;
+            color: #fff;
+            font-family: Microsoft YaHei;
+            background: rgba(0,0,0,0.2) none repeat scroll !important;
+            text-align: center;
+            line-height: 2.5;
+            width: 100%;
+            height: 40px;
+        }
+        .wrap {
+            width: 90%;
+            margin: 7em auto;
+        }
+        #content {
+            text-align: center;
+            font-size: 0.8em;
+        }
+        .photo {
+            text-align: center;
+        }
+        img {
+            width: 90%;
+            max-width: 450px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);;
+        }
+        .detail {
+            display: inline-block;
+            font-weight: bolder;
+            color: #fff;
+            background: rgba(0,0,0,0.2) none repeat scroll !important;
+            padding: 5px;
+            margin: 2px;
+            border-radius: 3px;
+        }
+        .text1 {
+            text-align: center;
+            margin: 20px auto 20px auto;
+            font-size: 0.8em;
+        }
+        .text2 {
+            padding-left: 4px;
+        }
+    </style>
+</head>
+<body>
+<div class="banner">厚脸皮的放一起了</div>
+<div class="wrap">
+    <div class="photo"><img src="../images/hzf.jpg" alt="合照" /></div>
+    <div class="text1">不知不觉间，与你相遇了</div>
+    <div id="content">
+        <div class="detail">{{yy}}</div><span class="text2">年</span>
+        <div class="detail">{{MM}}</div><span class="text2">月</span>
+        <div class="detail">{{dd}}</div><span class="text2">日</span>
+        <div class="detail">{{hh}}</div><span class="text2">时</span>
+        <div class="detail">{{mm}}</div><span class="text2">分</span>
+        <div class="detail">{{ss}}</div><span class="text2">秒</span>
+    </div>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    var vm = new Vue({
+        el: '#content',
+        data : {
+            begin : new Date('2012/09/13 00:00:00').getTime(),
+            yy: '',
+            MM: '',
+            dd: '',
+            hh: '',
+            mm: '',
+            ss:''
+        }
+    });
+
+    var toDoubleDigit = function (number) {
+        number = number.toString();
+        return number.length == 1 ? "0" + number : number;
+    };
+
+    var tik = function () {
+        var today = new Date().getTime();
+        var period = today - vm.begin;
+
+        var time = new Date(period);
+
+        vm.yy = toDoubleDigit(time.getFullYear()-1970);
+        vm.MM = toDoubleDigit(time.getMonth() + 1);
+        vm.dd = toDoubleDigit(time.getDate());
+        vm.hh = toDoubleDigit(time.getHours());
+        vm.mm = toDoubleDigit(time.getMinutes());
+        vm.ss = toDoubleDigit(time.getSeconds());
+        setTimeout('tik()', 1000);
+    };
+
+    tik();
+</script>
+</body>
+</html>

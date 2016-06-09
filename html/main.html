@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>小柔柔的主页</title>
+	<link href="../css/main.css" type="text/css" rel="stylesheet"/>
+	<!--<link href="../css/cute/normalize.css" type="text/css" rel="stylesheet"/>-->
+	<link href="../css/cute/style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body id="app" v-bind:style="{backgroundColor: backgroundColor}">
+<div>
+	<div class="banner" v-cloak>{{banner}}</div>
+	<router-view></router-view>
+</div>
+
+<!-- 萌妹纸 ====================================================== -->
+<template id="cute">
+	<div style="margin-top: 6em;transform: scale(0.8,0.8);">
+		<!-- CONTROLS -->
+
+		<input type="radio" checked id="radio-front" name="select-face"/>
+		<input type="radio" id="radio-left" name="select-face"/>
+		<input type="radio" id="radio-right" name="select-face"/>
+		<input type="radio" id="radio-top" name="select-face"/>
+		<input type="radio" id="radio-bottom" name="select-face"/>
+		<input type="radio" id="radio-back" name="select-face"/>
+
+		<div class="separator"></div>
+
+		<div class="space3d">
+
+			<div class="_3dbox">
+				<div class="_3dface _3dface--front"></div>
+				<div class="_3dface _3dface--top"></div>
+				<div class="_3dface _3dface--bottom"></div>
+				<div class="_3dface _3dface--left"></div>
+				<div class="_3dface _3dface--right"></div>
+				<div class="_3dface _3dface--back"></div>
+			</div>
+		</div>
+		<div id="change" onclick="change()">
+			<div class="rect1"></div>
+		</div>
+	</div>
+</template>
+
+<!-- 女神范 ====================================================== -->
+<template id="godness">
+	<p>godness</p>
+	<script src=""></script>
+</template>
+
+<div class="nav">
+	<a href="http://hljuan.github.io/graduation">毕业季</a>
+	<a href="http://hljuan.github.io/godness">女神范</a>
+	<a href="http://hljuan.github.io/cute">萌妹纸</a>
+</div>
+
+<!-- 毕业季 ====================================================== -->
+<template id="graduation">
+	<p>graduation</p>
+	<script src=""></script>
+</template>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/vue.js" type="text/javascript"></script>
+<script src="../js/vue-router.js" type="text/javascript"></script>
+<script src="../js/main.js" type="text/javascript"></script>
+<script>
+	var status = 0;
+	function change() {
+		var cubeCss = ['translate3d(0, 0, 125px);', 'rotateY(90deg)', 'rotateY(-90deg)', 'rotateX(90deg)', 'rotateX(-90deg)', 'rotateY(180deg)'];
+		status = (parseInt(status) + 1) % 6;
+		console.log(status);
+		$('.space3d ._3dbox').css('transform', cubeCss[status]);
+	}
+</script>
+</body>
+</html>
