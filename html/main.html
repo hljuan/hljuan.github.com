@@ -7,6 +7,7 @@
 	<link href="../css/main.css" type="text/css" rel="stylesheet"/>
 	<!--<link href="../css/cute/normalize.css" type="text/css" rel="stylesheet"/>-->
 	<link href="../css/cute/style.css" type="text/css" rel="stylesheet"/>
+	<link href="../css/time/style.css" type="text/css" rel="stylesheet"/>
 </head>
 <body id="app" v-bind:style="{backgroundColor: backgroundColor}">
 <div>
@@ -51,17 +52,27 @@
 	<script src=""></script>
 </template>
 
-<div class="nav">
-	<a href="http://hljuan.github.io/graduation">毕业季</a>
-	<a href="http://hljuan.github.io/godness">女神范</a>
-	<a href="http://hljuan.github.io/cute">萌妹纸</a>
+<!-- 友谊时 ====================================================== -->
+<div id="time" style="display: none">
+	<div class="wrap">
+		<div class="photo"><img src="../images/hzf.jpg" alt="合照" /></div>
+		<div class="text1">不知不觉间，与你相遇了</div>
+		<div id="content">
+			<div class="detail">{{yy}}</div><span class="text2">年</span>
+			<div class="detail">{{MM}}</div><span class="text2">月</span>
+			<div class="detail">{{dd}}</div><span class="text2">日</span>
+			<div class="detail">{{hh}}</div><span class="text2">时</span>
+			<div class="detail">{{mm}}</div><span class="text2">分</span>
+			<div class="detail">{{ss}}</div><span class="text2">秒</span>
+		</div>
+	</div>
 </div>
 
-<!-- 毕业季 ====================================================== -->
-<template id="graduation">
-	<p>graduation</p>
-	<script src=""></script>
-</template>
+<div class="nav">
+	<a href="https://hljuan.github.io/html/main.html#!/time">流年</a>
+	<a href="https://hljuan.github.io/html/main.html#!/cute">萌妹纸</a>
+	<a href="https://hljuan.github.io/html/main.html#!/photo">照片墙</a>
+</div>
 
 <script src="../js/jquery.js"></script>
 <script src="../js/vue.js" type="text/javascript"></script>
@@ -76,5 +87,6 @@
 		$('.space3d ._3dbox').css('transform', cubeCss[status]);
 	}
 </script>
+
 </body>
 </html>
